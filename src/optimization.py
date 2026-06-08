@@ -3,9 +3,9 @@
 
 import random
 import math
-from simulation import SimulationEngine
-from strategies import AlwaysCooperate, AlwaysDefect, TitForTatStrategy
-from evolvedStrategy import evolvedStrategy
+from .simulation import SimulationEngine
+from .strategies import AlwaysCooperate, AlwaysDefect, TitForTatStrategy
+from .evolvedStrategy import evolvedStrategy
 
 def evaluateSolution(p):
     strategyCandidate = evolvedStrategy(p)

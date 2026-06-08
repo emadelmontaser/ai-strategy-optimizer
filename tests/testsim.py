@@ -1,8 +1,16 @@
+import os
+import sys
 import unittest
-from simulation import play_rnd, COOPERATE, DEFECT, SimulationEngine
-from strategies import AlwaysCooperate
-from strategies import AlwaysDefect
-from strategies import TitForTatStrategy
+
+# Ensure the repository root is on sys.path when running this test directly.
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
+
+from src.simulation import play_rnd, COOPERATE, DEFECT, SimulationEngine
+from src.strategies import AlwaysCooperate
+from src.strategies import AlwaysDefect
+from src.strategies import TitForTatStrategy
 
 
 class TestSimulationEngine(unittest.TestCase):
