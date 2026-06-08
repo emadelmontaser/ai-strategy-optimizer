@@ -47,10 +47,6 @@ Full methodology, testing process, and results are available in the project repo
 - Optimization
 - Testing and Evaluation
 
-## Report
-
-[View Project Report](YOUR_GOOGLE_DRIVE_REPORT_LINK)
-
 ## What I Learned
 
 This project strengthened my understanding of AI search methods, optimization algorithms, simulation design, and performance evaluation. It also gave me experience comparing algorithmic approaches through structured testing rather than relying on a single result.
